@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #fff;
+}
+
+.menu-bar {
+    height: 100vh;
+    width: 14em;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: #000;
+}
+
+.menu-bar img {
+    height: 3.75em;
+    width: 9.3em;
+    margin: 0.5em 0 0 0.9em;
+}
+
+.menu-bar .fa-podcast {
+    color: rgb(119, 0, 0);
+}
+
+.menu-bar .fa-heart {
+    color: #ff3333;
+}
+
+.menu-bar nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu-bar nav ul li {
+    margin: 1em 0;
+}
+
+.menu-bar nav ul li a {
+    text-decoration: none;
+    color: #cccccc;
+    padding: 0.5em 0.5em;
+    margin-left: 1.2em;
+}
+
+.menu-bar nav ul li a:hover {
+    color: #fff;
+}
+
+.menu-bar nav ul li a svg {
+    margin: 0 1em 0.3em 0;
+}
+
+.menu-bar nav ul li a .fa {
+    margin-right: 1em;
+}
+
+.main-content header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    top: 0;
+    width: 100%;
+    height: 4em;
+    padding: 1em;
+    background-color: #ff2f2f;
+    z-index: 2;
+}
+
+.main-content header .hamburger {
+    visibility: hidden;
+    position: absolute;
+    left: 2em;
+    top: 1.45em;
+    cursor: pointer;
+}
+
+.main-content header .hamburger div {
+    height: 3px;
+    width: 25px;
+    margin-bottom: 0.3em;
+    background-color: #fff;
+}
+
+.main-content header button {
+    border: none;
+    padding: 0.5em 0.5em 0.5em 0;
+    border-radius: 1.2em;
+    background-color: #000;
+    color: #fff;
+}
+
+.main-content header button .fa {
+    margin: 0 0.5em;
+}
+
+.main-content header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content header ul li {
+    margin: 0 1em;
+}
+
+.main-content header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-content header ul li a:hover {
+    color: #cccccc;
+}
+
+.main-content .greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #c20000, #0000 );
+}
+
+.main-content .greeting h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main-content .recent-activity {
+    padding: 2em;
+}
+
+.main-content .recent-activity h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main-content .recent-activity ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-content .recent-activity ul li {
+    margin: 1em 0;
+    display: flex;
+    align-items: center;
+}
+
+.main-content .recent-activity ul li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.main-content .recent-activity ul li div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-content .recent-activity ul li div h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main-content .recent-activity ul li div p {
+    font-size: 1em;
+    color: #cccccc;
+}
+
+.main-content .categories {
+    padding: 2em;
+}
+
+.main-content .categories h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main-content .categories ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-content .categories ul li {
+    margin: 1em 0;
+    display: flex;
+    align-items: center;
+}
+
+.main-content .categories ul li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.main-content .categories ul li div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-content .categories ul li div h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main-content .categories ul li div p {
+    font-size: 1em;
+    color: #cccccc;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
